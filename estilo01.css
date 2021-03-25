@@ -3,13 +3,35 @@ body {
     padding: 0;
     border: 0;
   }
-  
+  .input{
+    border: none;
+    width: 200px;
+    height: 30px;
+  }
+
+  .botao{
+  background-color: orangered; 
+  color: white;
+  border:none;
+  width: 60px;
+  height: 32px;
+}
+
   .item_colorido{
     color: red;
   }
 
+  .h1{
+    float: left;
+  }
+
   .fonte{
     font-size: 40px; 
+    color: white;
+  }
+
+  .fonte2{
+    font-size: 35px; 
     color: white;
   }
 
