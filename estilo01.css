@@ -4,6 +4,14 @@ body {
     border: 0;
   }
   
+  .item_colorido{
+    color: red;
+  }
+
+  .fonte{
+    font-size: 40px; 
+    color: white;
+  }
 
   .cabecalho {
     padding-top: 20px;
