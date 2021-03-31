@@ -1,65 +1,133 @@
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-  .input{
-    border: none;
-    width: 200px;
-    height: 30px;
-  }
-
-  .botao{
-  background-color: orangered; 
-  color: white;
-  border:none;
-  width: 60px;
-  height: 32px;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-  .item_colorido{
-    color: red;
-  }
+.header {
+  background-color: #232323;
+  width: 100%;
+  height: 80px;
+}
 
-  .h1{
-    float: left;
-  }
+.logo {
+  font-family: Nunito;
+}
 
-  .fonte{
-    font-size: 40px; 
-    color: white;
-  }
+.item_colorido {
+  color: orangered;
+}
 
-  .fonte2{
-    font-size: 35px; 
-    color: white;
-  }
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
 
-  .cabecalho {
-    padding-top: 20px;
-    background: black;
-    width: 100%;
-    height: 80px;
-  }
-  
-  .caixa {
-    max-width: 1100px; 
-    height: 100%;
-    margin: 0 auto; 
-  }
-  
-  .cabecalho nav {
-    float: right;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  ul li {
-    color: white;
-    display: inline;
-    margin-left: 5px;
-    font-size: larger;
-  }
-  
+.container .logo {
+  float: left;
+  color: white;
+}
+
+.container nav {
+  color: white;
+  list-style: none;
+  float: right;
+  margin-top: 15px;
+}
+
+.container li {
+  display: inline-block;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+
+.apresentacao {
+  text-align: center;
+  background-size: cover;
+  background-image: url("./team.png");
+  background-repeat: no-repeat;
+  min-height: 400px;
+  color: white;
+}
+
+.apresentacao p {
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.container .apresentacao_titulo {
+  padding-top: 50px;
+  font-size: 50px;
+  margin: 0;
+  color: orangered;
+}
+
+.new {
+  padding-top: 30px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  height: 80px;
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.new_fim{
+  padding-top: 30px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  height: 80px;
+  background-color:orangered;
+  color: #ffffff;
+}
+.conteudo h1{
+  margin: 0;
+  margin-left: 500px;
+  float: center;
+  font-size: 17px;
+}
+
+
+.new h1 {
+  margin: 0;
+  float: left;
+}
+
+.new .newsletter {
+  float: right;
+}
+
+.new input {
+  height: 25px;
+  width: 225px;
+}
+
+.btn-orange {
+  background-color: orangered;
+  color: #ffffff;
+  border: none;
+  width: 60px;
+  height: 30px;
+}
+
+.missao{
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-image: url("missao.png");
+}
+
+/*.div_imagem2{
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-image: url(valores.png);
+ 
+}
+
+.div_imagem3{
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-image: url(visao.png);
+ 
+}*/
