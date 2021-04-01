@@ -8,6 +8,7 @@ body {
   background-color: #232323;
   width: 100%;
   height: 80px;
+  border-bottom: 5px solid orangered;
 }
 
 .logo {
@@ -131,16 +132,3 @@ img{
   text-align: center;
 }
 
-/*.div_imagem2{
-  background-repeat: no-repeat;
-  background-size: 100px;
-  background-image: url(valores.png);
- 
-}
-
-.div_imagem3{
-  background-repeat: no-repeat;
-  background-size: 100px;
-  background-image: url(visao.png);
- 
-}*/
