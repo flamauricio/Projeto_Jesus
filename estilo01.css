@@ -115,8 +115,21 @@ body {
 img{
   width: 220px;
   margin-left: 210px;
-
  }
+
+.missao{
+  float: left;
+  text-align: center;
+}
+
+.valores{
+  float: left;
+  text-align: center;
+}
+
+.visao{
+  text-align: center;
+}
 
 /*.div_imagem2{
   background-repeat: no-repeat;
