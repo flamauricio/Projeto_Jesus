@@ -8,7 +8,7 @@ body {
   background-color: #232323;
   width: 100%;
   height: 80px;
-  border-bottom: 5px solid orangered;
+  border-bottom: 5px solid orangered;  
 }
 
 .logo {
@@ -57,11 +57,10 @@ body {
   font-size: 20px;
 }
 
-.container .apresentacao_titulo {
+.container .apresentacao__titulo {
   padding-top: 50px;
   font-size: 50px;
   margin: 0;
-  color: orangered;
 }
 
 .new {
@@ -73,23 +72,6 @@ body {
   background-color: #232323;
   color: #ffffff;
 }
-
-.new_fim{
-  padding-top: 30px;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  height: 80px;
-  background-color:orangered;
-  color: #ffffff;
-}
-.conteudo h1{
-  margin: 0;
-  margin-left: 500px;
-  float: center;
-  font-size: 17px;
-}
-
 
 .new h1 {
   margin: 0;
@@ -113,22 +95,31 @@ body {
   height: 30px;
 }
 
-img{
-  width: 220px;
-  margin-left: 210px;
- }
-
-.missao{
+.box {
+  height: 280px;
+  margin: 0 auto;
+  max-width: 1126px;
+}
+.box .item {
   float: left;
   text-align: center;
+  width: 300px;
+  margin: 14px auto;
 }
 
-.valores{
-  float: left;
+.box .item img {
+  width: 150px;
+}
+
+.footer {
+  background-color: orangered;
+  height: 100px;
+}
+
+.footer p {
   text-align: center;
+  margin: 0;
+  padding: 40px;
+  color: white;
+  font-weight: 100;
 }
-
-.visao{
-  text-align: center;
-}
-
