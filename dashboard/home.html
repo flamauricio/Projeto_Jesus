@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js"
+        integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A=="
+        crossorigin="anonymous">
+        </script>
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <canvas width="400" height="400" id="chart"></canvas>
+
+</body>
+
+</html>
+<script>
+    var ctx = chart.getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Azul', 'Verde', 'Roxo', 'Rosa', 'Cinza', 'Laranja'],
+            datasets: [{
+                axis: 'y',
+                fill: false,
+                label: 'Sensores',
+                data: [19, 10.5, 5.5, 16, 13, 7],
+                backgroundColor: [
+                    '#0C63B9',
+                    '#0CB963',
+                    '#7A0CB9',
+                    '#B90CA2',
+                    '#88838A',
+                    '#EF8204'
+                ],
+                borderColor: [
+                    '#000000',
+                    '#000000',
+                    '#000000',
+                    '#000000',
+                    '#000000',
+                    '#000000'
+                ],
+                borderWidth: 4
+            }]
+        },
+        options: {
+            
+        }
+    });
+</script>
